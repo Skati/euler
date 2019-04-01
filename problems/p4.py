@@ -5,7 +5,6 @@ def pal():
             m=j*i
             if str(m)==str(m)[::-1]:
                 result.append(str(m))
-                
-    return (max(result)
+    return max(result)
 
 print(pal())
